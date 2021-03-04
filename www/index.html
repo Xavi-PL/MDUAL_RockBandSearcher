@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src https://code.jquery.com https://fonts.gstatic.com 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src https://fonts.googleapis.com 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="images/background.png">
+          </div>
+          <a href="#user"><img class="circle" src="images/crop.jpg"></a>
+          <a href="#name"><span class="white-text name">XaviPL</span></a>
+          <a href="#email"><span class="white-text email">xavipl.mvk25@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">dashboard</i>DASHBOARD</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">whatshot</i>SEARCH</a></li>
+        <li><a href="#!"><i class="material-icons">face</i>MY PROFILE</a></li>
+        <li><a href="#!"><i class="material-icons">remove_circle</i>DISCONNECT</a></li>
+
+
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <ul id="tabs-swipe-demo" class="tabs">
+    <li class="tab col s3"><a class="active" href="#swipe-1">Test 1</a></li>
+    <li class="tab col s3"><a href="#swipe-2">Test 2</a></li>
+    <li class="tab col s3"><a href="#swipe-3">Test 3</a></li>
+  </ul>
+  
+  <div id="swipe-1" class="col s12 white">
+    <div class="container">
+      <form class="col s12" id="formSearch">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">search</i>
+            <input id="etSearch" type="text">
+            <label for="etSearch">SEARCH:</label>
+          </div>
+        </div>
+      </form>
+
+
+
+
+    </div>
+  </div>
+  <div id="swipe-2" class="col s12 red">Second tab content</div>
+  <div id="swipe-3" class="col s12 green">Third tab content</div>
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+
+  <!--  Scripts  -->
+  <script src="cordova.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
