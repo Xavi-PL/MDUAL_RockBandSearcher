@@ -16,3 +16,13 @@
 .carousel .carousel-item{
   width:100%;
 }
+
+.ul.collection { 
+  margin:5px; 
+  padding:5px; 
+  background-color: green; 
+  width: 500px; 
+  height: 110px; 
+  overflow: auto; 
+  text-align:justify; 
+} 
